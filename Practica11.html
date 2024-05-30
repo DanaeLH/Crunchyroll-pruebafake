@@ -1,0 +1,244 @@
+<html>
+<head>
+  <title> Crunchyroll </title>
+   <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/free-crunchyroll-4062809-3357695.png?f=webp" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/49c562e101.js" crossorigin="anonymous"></script>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenidoCarrusel{ 
+    height: 655px;
+    overflow: hidden;
+    
+}
+
+.itemCarrusel{
+    height: 655px;
+    position: relative;
+}
+.tarjetaCarrusel{
+    height:100%;
+}
+
+.flechas{
+    position: absolute;
+    top: 0;
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#tarjetaCarrusel1{
+
+background-color: rgba(120, 202, 189, 0.322);
+}
+
+#tarjetaCarrusel2{
+background-color: rgba(151, 146, 184, 0.308);
+}
+
+#tarjetaCarrusel3{
+background-color: rgba(56, 122, 197, 0.432);
+}
+
+#tarjetaCarrusel4{
+background-color: rgba(54, 24, 27, 0.486);
+}
+
+#tarjetaCarrusel5{
+background-color: rgba(14, 12, 1, 0.486);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+i{
+    color: #F47521;
+    font-size: 33px;    
+    
+}
+
+#ContePuntos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ContePuntos > a{
+    font-size: 1em;
+    font-style: none;
+    color: #F47521;
+
+}
+
+.titulo{
+    top:300px;
+    left: 100px;
+    width:800px; 
+    height:120px; 
+    overflow:auto;
+}
+
+section{
+    display: flex;
+    width: 1700px;
+    height: 700px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit:cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+
+section img:hover{
+    cursor:auto;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
+
+
+</style>
+
+<body bgcolor="black">
+<img src="Anime.png" width="1680" height="70">
+
+<div id="contenidoCarrusel"> 
+
+    <div class="itemCarrusel" id="itemCarrusel1">
+        <div class=" tarjetaCarrusel" id="tarjetaCarrusel1">
+              
+            <div align="center"> <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/3f283002b47c62b1e5d311c45f95c97e.jpe " alt=""></div>
+
+        </div>
+        <div class="flechas">
+
+            <a href="#itemCarrusel5">
+                <i class="fa-solid fa-caret-left"></i>
+           </a>
+
+            <a href="#itemCarrusel2">
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+        </div>   
+    </div>
+
+
+    <div class="itemCarrusel" id="itemCarrusel2">
+        <div class=" tarjetaCarrusel" id="tarjetaCarrusel2">
+
+            <div align="center"> <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpe " alt=""></div>
+
+        </div>
+        <div class="flechas">
+            <a href="#itemCarrusel1">
+                <i class="fa-solid fa-caret-left"></i>
+               </a>
+    
+                <a href="#itemCarrusel3">
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+        </div>   
+    </div>
+
+
+    <div class="itemCarrusel" id="itemCarrusel3">
+        <div class=" tarjetaCarrusel" id="tarjetaCarrusel3">
+
+            <div align="center"> <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/b7d5c3e0703e59c63c5fd06f86396f8d.jpe " alt=""></div>
+
+        </div>
+        <div class="flechas">
+            <a href="#itemCarrusel2">
+                <i class="fa-solid fa-caret-left"></i>
+               </a>
+    
+                <a href="#itemCarrusel4">
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+        </div>   
+    </div>
+
+
+    <div class="itemCarrusel" id="itemCarrusel4">
+        <div class=" tarjetaCarrusel" id="tarjetaCarrusel4">
+
+            <div align="center"> <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/dbb7e4ac3442551634a2e80fa54106cc.jpe " alt=""></div>
+
+        </div>
+        <div class="flechas">
+            <a href="#itemCarrusel3">
+                <i class="fa-solid fa-caret-left"></i>
+               </a>
+    
+                <a href="#itemCarrusel5">
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+        </div>   
+    </div>
+
+
+
+    <div class="itemCarrusel" id="itemCarrusel5">
+        <div class=" tarjetaCarrusel" id="tarjetaCarrusel5">
+
+         <div align="center"><img src=" https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/6b5f4fc8c0a7bb5012b9c0930a46570f.jpe" alt=""></div>  
+
+        </div>
+
+        <div class="flechas">
+            <a href="#itemCarrusel4">
+                <i class="fa-solid fa-caret-left"></i>
+               </a>
+    
+                <a href="#itemCarrusel1">
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+        </div>   
+    </div>
+
+</div>
+
+<div id="ContePuntos"> 
+    <a href="#itemCarrusel1">●</a>
+    <a href="#itemCarrusel2">●</a>
+    <a href="#itemCarrusel3">●</a>
+    <a href="#itemCarrusel4">●</a>
+    <a href="#itemCarrusel5">●</a>
+
+</div>
+
+<div class=" titulo">
+    <font size=8 color=white face="Trebuchet ms">¡Anime que puedes mirar gratis!
+    <br><font size=4 color=white face="Maven Pro">¡Disfruta aquí de algunos de nuestros títulos más populares!</font>
+</div>
+
+<section>
+    <img src="https://es.web.img3.acsta.net/pictures/21/11/22/10/54/0321052.jpg ">
+    <img src="https://m.media-amazon.com/images/M/MV5BNjkyNDI2MTgtN2Y3NS00M2RjLWJhNDMtMmNmZmUwMDQwZTE1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg ">
+    <img src="https://m.media-amazon.com/images/M/MV5BNGYyNmI3M2YtNzYzZS00OTViLTkxYjAtZDIyZmE1Y2U1ZmQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg ">
+    <img src="https://www.formulatv.com/images/series/posters/2500/2534/dest_1.jpg ">
+    <img src="https://images.justwatch.com/poster/24535867/s592/toradora ">
+</section>
+
+
+</body>
+</html>
